@@ -4,9 +4,7 @@ const { SHELL } = process.env;
 
 // console.table(SHELL);
 
-const { name, email } = {
-  name: "Argiro",
-  email: "elto.82@gmail.com",
-};
+const characters = ["name", "email"];
+const [, email] = characters;
 
 // console.log(name, email);

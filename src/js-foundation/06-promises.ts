@@ -1,4 +1,4 @@
-const getPokemonById = (id) => {
+export const getPokemonById = (id: string | number): Promise<string> => {
   const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
 
   return fetch(url)
@@ -9,5 +9,3 @@ const getPokemonById = (id) => {
       return pokemon.name;
     });
 };
-
-module.exports = getPokemonById;
