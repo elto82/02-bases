@@ -48,13 +48,13 @@
 //   .finally(() => console.log("finally"));
 
 // const buildLogger = require("./plugins/logger-plugin.js");
-import { getPokemonById } from "./js-foundation/07-async";
-import { buildLogger } from "./plugins/logger-plugin";
+// import { getPokemonById } from "./js-foundation/07-async";
+// import { buildLogger } from "./plugins/logger-plugin";
 
-const logger = buildLogger("app.js");
+// const logger = buildLogger("app.js");
 
-logger.log("hola log de app.js");
+// logger.log("hola log de app.js");
 
-logger.error("hola error de app.js");
+// logger.error("hola error de app.js");
 
-getPokemonById(1).then((name) => console.log(name));
+// getPokemonById(1).then((name) => console.log(name));
